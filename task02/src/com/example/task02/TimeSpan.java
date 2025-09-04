@@ -1,3 +1,5 @@
+package com.example.task02;
+
 class TimeSpan{
     private int Hours;
     private int Minutes;
