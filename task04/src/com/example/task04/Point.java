@@ -10,8 +10,8 @@ class Point {
     }
 
     public double distance(Point point) {
-        double a = Math.pow(x - point.x, 2);
-        double b = Math.pow(y - point.y, 2);
+        var a = Math.pow(x - point.x, 2);
+        var b = Math.pow(y - point.y, 2);
 
         return Math.sqrt(a + b);
     }
